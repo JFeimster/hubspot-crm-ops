@@ -27,7 +27,16 @@ This guide is the translation layer between real-world applicant chaos and clean
 
 ---
 
-## 2. Core Parsing Principle
+## 2. Core Parsing Principle & Public Intelligence Mandate
+
+Raw intake must be:
+1. Extracted & Normalized
+2. Enriched via Mandatory Public Intelligence Research (`40 - Applicant Public Intelligence and Web Research SOP.md`)
+3. Classified into Verified Facts, Strong Clues, Operating Inferences, and Writing Hooks (`41`)
+4. Mapped to structured fields (for clean matches only) and structured notes
+5. Checked against HubSpot to prevent duplicates
+
+Thin intake form data must never become a thin CRM record. Use domain, name, phone, and city to uncover operating context and outreach hooks.
 
 Do not treat raw intake as ready-to-write CRM data.
 

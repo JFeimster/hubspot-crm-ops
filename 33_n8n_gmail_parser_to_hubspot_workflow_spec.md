@@ -24,7 +24,15 @@ The goal is to turn messy inbox activity into structured CRM memory.
 
 ---
 
-## 2. Workflow Summary
+## 2. Workflow Summary & Jason Voice Outreach
+
+Gmail parsing workflows must:
+1. Parse incoming email context.
+2. Trigger public intelligence lookup (`40`).
+3. Update applicant state (`42`).
+4. Generate reply drafts using Jason’s voice (`41`, `43`).
+
+## 2.1 Workflow Summary
 
 ```text
 Gmail Trigger / Label

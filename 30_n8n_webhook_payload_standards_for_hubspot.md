@@ -28,7 +28,11 @@ Good payloads make automation boring. Boring automation is profitable automation
 
 ---
 
-## 2. Universal Payload Envelope
+## 2. Universal Payload Envelope & Research Context
+
+Payloads must include public intelligence research data (`40`), initial intent (`40`, `42`), state machine status (`42`), and Giggle/Plaid routing context (`17`, `42`).
+
+## 2.1 Universal Payload Envelope
 
 Every webhook payload should include a standard envelope.
 

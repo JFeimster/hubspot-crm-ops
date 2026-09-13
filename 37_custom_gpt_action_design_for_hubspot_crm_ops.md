@@ -25,7 +25,11 @@ A GPT Action should be a scalpel, not a drunk forklift.
 
 ---
 
-## 2. Recommended Action Categories
+## 2. Recommended Action Categories & Prompt Contracts
+
+Custom GPT Actions must align with `43 - Google CC-Style Applicant Review and Outreach Prompt.md`, enforcing research-first proposals (`40`), state machine updates (`42`), and Jason outreach drafts (`41`).
+
+## 2.1 Recommended Action Categories
 
 ```text
 search_hubspot_contact

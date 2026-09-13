@@ -27,7 +27,14 @@ Different forms have different operational intent. Treat them accordingly.
 
 ---
 
-## 2. Core Rule
+## 2. Core Rule & Research-First Routing
+
+Wix form submissions are raw intake. Before finalizing CRM records, initial intent selection, or outreach drafts:
+1. Search HubSpot to prevent duplicates.
+2. Conduct mandatory public research per `40 - Applicant Public Intelligence and Web Research SOP.md`.
+3. Select explicit initial intent (`40`, `42`).
+4. For Giggle applicants, direct to existing Giggle email and Plaid flow (`17`, `42`); never invent Moonshine/DAC links.
+5. Apply Jason’s voice for outreach (`41`, `43`).
 
 Every Wix form submission should be classified before HubSpot action.
 

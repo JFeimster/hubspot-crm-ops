@@ -25,7 +25,11 @@ API access is power. Power without guardrails is just a chainsaw with a login sc
 
 ---
 
-## 2. Integration Options
+## 2. Integration Options & Research/State Machine APIs
+
+AI agents using APIs must support creating research notes (`40`), updating state machine statuses/tasks (`42`), and drafting Gmail messages in Jason’s voice (`41`, `43`).
+
+## 2.1 Integration Options
 
 ### 2.1 HubSpot Connector in ChatGPT
 

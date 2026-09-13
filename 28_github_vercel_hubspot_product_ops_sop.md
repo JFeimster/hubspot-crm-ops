@@ -31,7 +31,11 @@ Vercel is not your memory palace.
 
 ---
 
-## 2. System Roles
+## 2. System Roles & CRM Knowledge Alignment
+
+Product ops work triggered by CRM requests must preserve applicant/partner intelligence (`40`) and state machine context (`42`).
+
+## 2.1 System Roles
 
 | System | Owns |
 |---|---|

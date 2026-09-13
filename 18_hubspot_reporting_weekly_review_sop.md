@@ -61,7 +61,15 @@ A complete weekly review should include:
 
 ---
 
-## 4. Review Metrics
+## 4. Review Metrics & State Machine Performance
+
+Weekly reviews must track:
+- Public research completion rate (`40`)
+- State machine progression per `42 - Applicant Outreach Sequence and State Machine.md`
+- Giggle email location & Plaid bank-connection completion rates (`17`, `42`)
+- Intent selection accuracy (Qualification vs Funding vs Partner vs Reactivation)
+
+## 4.1 Review Metrics
 
 Track these metrics when possible.
 

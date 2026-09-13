@@ -31,7 +31,11 @@ Automation should be a force multiplier, not a drunk intern with a webhook.
 
 ---
 
-## 2. Automation Levels
+## 2. Automation Levels & Research Guardrails
+
+Public intelligence research (`40`) and initial intent selection (`40`, `42`) should be AI-assisted or semi-automated. Outreach sending remains user-approved, while record creation follows proposed-change approval gates.
+
+## 2.1 Automation Levels
 
 | Level | Meaning |
 |---|---|

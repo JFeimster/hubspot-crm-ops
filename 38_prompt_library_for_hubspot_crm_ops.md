@@ -26,7 +26,19 @@ These prompts are designed to create clean, execution-ready outputs with minimal
 
 ---
 
-## 2. Parse Funding Applicant Prompt
+## 2. Public Intelligence Research & Google CC Review Prompt (SOP 43 Alignment)
+
+```text
+Perform a research-first applicant review per SOPs 40–44.
+1. Search HubSpot first to avoid duplicates.
+2. Conduct public web research to uncover business entities, websites, social profiles, and writing hooks.
+3. Distinguish verified facts, strong clues, operating inferences, and writing hooks.
+4. Select explicit initial intent (Qualification, Funding follow-up, Giggle/BankBreezy route, Business outreach, Partnership, Reactivation).
+5. For Giggle route, direct applicant to existing Giggle email + Plaid bank connection flow. Never invent custom Moonshine links.
+6. Return output in the 6-part Google CC format specified in SOP 43.
+```
+
+## 3. Parse Funding Applicant Prompt
 
 ```markdown
 Parse the following funding applicant intake for Moonshine Capital.

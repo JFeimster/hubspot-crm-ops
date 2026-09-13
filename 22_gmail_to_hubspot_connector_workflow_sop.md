@@ -28,7 +28,15 @@ Gmail is where the smoke signal appears. HubSpot is where the operation remember
 
 ---
 
-## 2. Core Rule
+## 2. Core Rule & Research-First Mandate
+
+When processing Gmail into HubSpot:
+1. Conduct mandatory public intelligence research (`40`) on new senders/applicants.
+2. Align Gmail reply drafts with Jason’s voice (`41`, `43`).
+3. Align follow-up tasks with state machine (`42`).
+4. Direct Giggle applicants to locate their existing Giggle email and Plaid connection (`17`, `42`).
+
+## 2.1 Core Rule
 
 Read the relevant Gmail context before drafting or logging.
 

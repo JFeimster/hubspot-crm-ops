@@ -28,12 +28,25 @@ This document should be used alongside:
 - `03 - HubSpot Task Templates.md`
 - `04 - HubSpot Email Templates.md`
 - `05 - HubSpot Thread Names and Starter Prompts.md`
+- `40 - Applicant Public Intelligence and Web Research SOP.md`
+- `41 - Jason Voice and Applicant Outreach Style Guide.md`
+- `42 - Applicant Outreach Sequence and State Machine.md`
+- `43 - Google CC-Style Applicant Review and Outreach Prompt.md`
+- `44 - Gold-Standard Applicant Outreach Examples.md`
 
 ---
 
-## 2. Search-First Reminder
+## 2. Search-First and Research Mandate
 
-Before updating HubSpot, always search first.
+Before updating HubSpot or finalizing CRM mappings:
+1. Always search HubSpot first to avoid duplicates.
+2. Perform mandatory public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md`.
+
+Do not allow a thin intake form submission to become an excuse for a thin CRM record. Research identifies official websites, social presence, operating context, and Jason-style outreach hooks (`41`).
+
+Field vs. Note Discipline:
+- **Clean structured fields:** mapped only when there is a clean match (e.g. Email, Phone, Verified Company Name, Website URL, State).
+- **Research Note (`40`):** broader operating context, clues, inferences, and writing hooks belong in structured notes. Never abuse schema or create arbitrary custom properties for unverified web research.
 
 Search order:
 

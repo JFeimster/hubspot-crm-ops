@@ -38,6 +38,15 @@ Specific beats general.
 
 ## 3. Source Library Overview
 
+### Governing Modules (40–44)
+
+- **`40 - Applicant Public Intelligence and Web Research SOP.md`**: Mandatory research-first workflow before finalizing contact/company/deal updates or initial outreach.
+- **`41 - Jason Voice and Applicant Outreach Style Guide.md`**: Tone, style, negative framing, and message architecture for Jason’s outreach.
+- **`42 - Applicant Outreach Sequence and State Machine.md`**: State-based operating system, triggers, cadences, and task requirements.
+- **`43 - Google CC-Style Applicant Review and Outreach Prompt.md`**: Standard 6-part contract prompt for applicant review and outreach.
+- **`44 - Gold-Standard Applicant Outreach Examples.md`**: Approved outreach examples and synthetic training patterns.
+
+
 | File | Primary Purpose | Use When |
 |---|---|---|
 | `01 - HubSpot CRM Ops Playbook.md` | Master operating rules | Any HubSpot CRM Ops task |

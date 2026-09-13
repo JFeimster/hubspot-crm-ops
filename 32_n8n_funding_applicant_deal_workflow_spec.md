@@ -22,7 +22,13 @@ The goal is to create one clean funding opportunity when appropriate — not a d
 
 ---
 
-## 2. Workflow Summary
+## 2. Workflow Summary & Provider Mechanics
+
+Deal workflows must align with state machine triggers (`42`) and provider routing rules (`17`, `42`):
+- For Giggle route, applicant is directed to existing Giggle email and Plaid connection. Never invent custom Moonshine/DAC links.
+- Stage updates map to evidence-verified state changes in `42`.
+
+## 2.1 Workflow Summary
 
 ```text
 Applicant Intake Received

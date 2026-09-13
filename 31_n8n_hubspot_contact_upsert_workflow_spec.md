@@ -25,7 +25,15 @@ Contact upsert is the front gate. If the gate is sloppy, the whole CRM becomes a
 
 ---
 
-## 2. Workflow Summary
+## 2. Workflow Summary & Research Step
+
+Before upserting contacts:
+1. Search HubSpot to match email/phone/name.
+2. Conduct public intelligence research (`40`).
+3. Differentiate verified facts (fields/notes), clues, inferences, and writing hooks (`41`).
+4. Store broader intelligence in structured notes (`40`).
+
+## 2.1 Workflow Summary
 
 ```text
 Webhook Trigger

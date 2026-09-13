@@ -107,7 +107,16 @@ Do not use deprecated connector functions when the modern equivalents are availa
 
 ---
 
-## 5. Core Execution Rule
+## 5. Core Execution Rule & Research-First Mandate
+
+Before proposing or executing connector actions:
+1. Search HubSpot first to avoid duplicate records.
+2. Complete mandatory public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md` for new contacts or material updates.
+3. Explicitly select initial intent and route (Qualification, Funding follow-up, Giggle/BankBreezy, Business outreach, Partnership, Reactivation).
+4. For Giggle applicants, direct to existing Giggle email and Plaid flow (`17`, `42`); never create custom Moonshine/DAC links.
+5. Propose exact record updates before execution.
+
+## 5.1 Core Execution Rule
 
 Before any write action:
 

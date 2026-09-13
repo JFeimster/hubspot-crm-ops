@@ -47,7 +47,11 @@ If a cleanup action could destroy useful history, do not execute it without expl
 
 ---
 
-## 3. Duplicate Prevention Rules
+## 3. Duplicate Prevention & Entity Resolution Rules
+
+Before creating or merging any record, use public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md` to resolve entities (matching at least two signals: name + location, email domain + company site, phone + profile).
+
+Never create speculative companies from personal email domains or unverified intake fields. Store unconfirmed business context in notes (`40`).
 
 Preventing duplicates is better than cleaning them up later.
 

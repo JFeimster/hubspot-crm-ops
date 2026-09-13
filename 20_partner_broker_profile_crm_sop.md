@@ -27,7 +27,11 @@ Partner profile work is enablement, not underwriting.
 
 ---
 
-## 2. Core Rule
+## 2. Core Rule & Research-First Profile Verification
+
+Before creating or updating partner/broker profiles:
+1. Conduct public research per `40 - Applicant Public Intelligence and Web Research SOP.md` to verify business credentials, web properties, and social links.
+2. Apply Jason’s voice (`41`) for partner onboarding and profile follow-up.
 
 A broker profile is not automatically:
 

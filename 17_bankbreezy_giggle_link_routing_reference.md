@@ -79,7 +79,7 @@ BankBreezy may be appropriate when:
 - Applicant has enough business activity to justify review
 - Applicant is looking for working capital, expansion, equipment, or business funding
 
-Use BankBreezy language when the goal is to get the applicant into a business funding dashboard/review path.
+Use BankBreezy language when the goal is to get the applicant into a business funding dashboard/review path. BankBreezy alerts must be translated into the exact missing applicant action (connect bank, submit named statements, etc.) per `42 - Applicant Outreach Sequence and State Machine.md`.
 
 ---
 
@@ -118,39 +118,50 @@ Applicant may benefit from a parallel funding review approach. Giggle-style revi
 
 ---
 
-## 7. Link-Sent Logging Rules
+## 7. Route-Event Logging Rules
 
-Whenever a BankBreezy or Giggle-related link is sent, log it.
+Log the verified route event—not a generic “link sent.” Giggle and BankBreezy must remain distinct.
 
-Required note details:
+### BankBreezy dashboard route
 
-- Link sent
-- Date sent
-- Who sent it
-- Why it was sent
-- Applicant lifecycle status
-- Follow-up task created
-- Compliance/no-guarantee note
+Record:
+
+- Exact approved dashboard link sent
+- Date and sender
+- Routing reason
+- Applicant state and route-specific follow-up task
+
+### Giggle route
+
+Record:
+
+- Giggle route active / applicant advanced, when verified
+- Giggle email expected, located, or missing
+- Plaid/bank connection state
+- Any specifically requested statement or document and its verified submission path
+- Route-specific follow-up task
+
+Do not record or invent a Moonshine/DAC/Giggle URL when Giggle’s own email owns the applicant action.
 
 Recommended note:
 
 ```markdown
-## Funding Link Sent Note
+## Provider Route Event Note
 
 Applicant: [Name]  
-Link type: [BankBreezy dashboard / Giggle / Other]  
-Link sent: [URL]  
-Date sent: [Date]  
-Sent by: [Jason / Moonshine Capital / Other]
+Provider route: [BankBreezy dashboard / Giggle / Other]  
+Route event: [BankBreezy dashboard link sent / Giggle email expected / Plaid incomplete / named documents requested]  
+Date: [Date]  
+Handled by: [Jason / Moonshine Capital / Other]
 
 Routing reason:
 [Explain why this path was recommended.]
 
-Next action:
-[Follow-up task title and due timing.]
+Verified next action:
+[Exact provider-owned action and follow-up timing.]
 
-Compliance:
-Link was sent for review/application purposes only. No approval, funding amount, terms, or timeline guaranteed.
+No-guarantee note:
+Route is for review/application purposes only. No approval, funding amount, terms, or timeline guaranteed.
 ```
 
 ---
@@ -171,17 +182,25 @@ No approval, amount, terms, or timeline is guaranteed, but this gets the review 
 
 ---
 
-## 9. Giggle Email Language
+## 9. Giggle Link Ownership & Email Language
 
-Use this for applicants routed toward Giggle-style review.
+### 9.1 Non-Negotiable Link Ownership Rule
+- **Giggle Link Ownership:** Giggle owns the applicant-facing email/link for its application and Plaid bank-connection flow. DAC/Moonshine applicant outreach must direct the applicant to locate their existing Giggle email.
+- **Do Not Invent Links:** Never invent a separate Moonshine, DAC, or generic application link for the Giggle path.
+- **Plaid Connection Mechanism:** In the Giggle route, Plaid connects and verifies the applicant’s primary operating account and supplies the account data used for review. If the provider requests named statements or documents, state that exact request and use its verified path; do not replace it with generic instructions.
 
+### 9.2 Giggle Outreach Copy (Jason Voice)
 ```text
-Based on what you shared, the next step is to complete the funding review path that fits your current banking/revenue setup. Be sure to complete the application accurately and connect the correct bank account if prompted.
+Hi [First Name],
 
-Once finished, reply back so I can track the next step.
+You are already in the Giggle queue. The next move is simple: open the email Giggle sent you, and connect your primary operating account through Plaid.
+
+That gives underwriting what it needs to evaluate the lane. Leaving it half-finished is letting an administrative bottleneck hold up your momentum.
+
+Handle that step today, then reply "done" here. If the Giggle email got swallowed by your spam folder, reply "resend" and we will get you pointed back to the right place.
+
+Jason
 ```
-
-If a specific Giggle link is not provided, do not invent one.
 
 ---
 
@@ -208,9 +227,10 @@ Create task immediately after sending/recommending a link.
 | Link/Event | Task |
 |---|---|
 | BankBreezy dashboard sent | `Follow up — [Name] — confirm BankBreezy quote started` |
-| Giggle routing sent | `Follow up — [Name] — confirm Giggle application started` |
-| Applicant says no email/link received | `Follow up — [Name] — confirm direct funding link worked` |
-| Applicant starts application | `Check status — [Name] — confirm bank account linked` |
+| Giggle route active / provider email expected | `Follow up — [Name] — confirm Giggle email located` |
+| Giggle email missing | `Follow up — [Name] — confirm Giggle resend/escalation` |
+| BankBreezy dashboard link fails | `Follow up — [Name] — verify BankBreezy dashboard action path` |
+| Giggle applicant starts application | `Check status — [Name] — confirm Plaid/bank connection` |
 | No response after link | `48-hour follow-up — [Name] — no response after funding link` |
 | Larger request with fast need | `Follow up — [Name] — review parallel business funding options` |
 
@@ -229,7 +249,7 @@ If a deal exists:
 | Routing Event | Suggested Stage |
 |---|---|
 | BankBreezy link sent | Contract Sent |
-| Giggle link sent | Contract Sent |
+| Giggle route active / provider email expected | Contract Sent or the closest existing live stage + precise state note |
 | Applicant appears eligible but no link sent | Qualified To Buy |
 | Applicant started application | Decision Maker Bought-In |
 | Bank link pending | Contract Sent or Decision Maker Bought-In + note |
