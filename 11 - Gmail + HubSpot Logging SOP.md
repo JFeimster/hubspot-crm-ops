@@ -31,7 +31,15 @@ If a meaningful applicant or partner conversation happens in Gmail, HubSpot shou
 
 ---
 
-## 2. Core Rule
+## 2. Core Rule & Research-First Mandate
+
+When logging Gmail interactions or drafting Gmail follow-ups for HubSpot:
+1. Conduct mandatory public intelligence research (`40 - Applicant Public Intelligence and Web Research SOP.md`) before logging new contact outreach.
+2. Store research findings, verified facts, clues, and writing hooks (`41`) in structured HubSpot notes.
+3. Align logged applicant states and follow-up tasks with `42 - Applicant Outreach Sequence and State Machine.md`.
+4. Enforce Giggle email ownership: direct Giggle applicants to locate their existing Giggle email and Plaid bank connection (`17`, `42`).
+
+## 2.1 Core Rule
 
 Do not let important applicant context live only in Gmail.
 

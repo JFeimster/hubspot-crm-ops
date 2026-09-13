@@ -79,7 +79,7 @@ BankBreezy may be appropriate when:
 - Applicant has enough business activity to justify review
 - Applicant is looking for working capital, expansion, equipment, or business funding
 
-Use BankBreezy language when the goal is to get the applicant into a business funding dashboard/review path.
+Use BankBreezy language when the goal is to get the applicant into a business funding dashboard/review path. BankBreezy alerts must be translated into the exact missing applicant action (connect bank, submit named statements, etc.) per `42 - Applicant Outreach Sequence and State Machine.md`.
 
 ---
 
@@ -171,17 +171,25 @@ No approval, amount, terms, or timeline is guaranteed, but this gets the review 
 
 ---
 
-## 9. Giggle Email Language
+## 9. Giggle Link Ownership & Email Language
 
-Use this for applicants routed toward Giggle-style review.
+### 9.1 Non-Negotiable Link Ownership Rule
+- **Giggle Link Ownership:** Giggle owns the applicant-facing email/link for its application and Plaid bank-connection flow. DAC/Moonshine applicant outreach must direct the applicant to locate their existing Giggle email.
+- **Do Not Invent Links:** Never invent a separate Moonshine, DAC, or generic application link for the Giggle path.
+- **Plaid Connection Mechanism:** Plaid is the actual bank-connection/verification mechanism in the Giggle route. Do not describe it as an unrelated document upload alternative.
 
+### 9.2 Giggle Outreach Copy (Jason Voice)
 ```text
-Based on what you shared, the next step is to complete the funding review path that fits your current banking/revenue setup. Be sure to complete the application accurately and connect the correct bank account if prompted.
+Hi [First Name],
 
-Once finished, reply back so I can track the next step.
+You are already in the Giggle queue. The next move is simple: open the email Giggle sent you, and connect your primary operating account through Plaid.
+
+That gives underwriting what it needs to evaluate the lane. Leaving it half-finished is letting an administrative bottleneck hold up your momentum.
+
+Handle that step today, then reply "done" here. If the Giggle email got swallowed by your spam folder, reply "resend" and we will get you pointed back to the right place.
+
+Jason
 ```
-
-If a specific Giggle link is not provided, do not invent one.
 
 ---
 

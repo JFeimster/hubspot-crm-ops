@@ -85,7 +85,17 @@ Important: HubSpot returned these stage options globally for the dealstage prope
 
 ---
 
-## 5. Deal Creation Rule
+## 5. Deal Creation Rule and State Machine Alignment
+
+Do not create a deal for every minor question. Deal creation must be supported by public research (`40 - Applicant Public Intelligence and Web Research SOP.md`) and explicit intent selection (`40`, `42`).
+
+Stage movement must reflect actual evidence from `42 - Applicant Outreach Sequence and State Machine.md` (e.g. Giggle email located, Plaid bank connection verified, provider submission confirmed), not guesswork.
+
+For Giggle-routed deals:
+- Direct applicant to the existing Giggle email and Plaid flow (`17`, `42`).
+- Track stage transitions based on provider state updates (e.g., Plaid Incomplete vs. Submitted/Provider Review).
+
+## 5.1 Deal Creation Rule
 
 Create a deal only when there is a real funding opportunity that should be tracked.
 

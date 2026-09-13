@@ -28,7 +28,16 @@ n8n should move clean data through guarded workflows. It should not become a caf
 
 ---
 
-## 2. Core Architecture Principle
+## 2. Core Architecture Principle & Research-First Orchestration
+
+Every n8n applicant workflow layer must include:
+1. Search HubSpot first to avoid duplicate records.
+2. Mandatory Public Intelligence Research (`40 - Applicant Public Intelligence and Web Research SOP.md`) node before contact/deal decisions or outreach.
+3. Initial Intent Selection (`40`, `42`).
+4. Giggle route handling: direct to existing Giggle email and Plaid bank connection (`17`, `42`).
+5. Jason Outreach Generator (`41`, `43`) for Gmail/outreach nodes.
+
+## 2.1 Core Architecture Principle
 
 Use n8n for workflow routing, normalization, enrichment, logging, and automation.
 

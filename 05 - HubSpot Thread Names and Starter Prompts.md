@@ -46,6 +46,10 @@ When a request changes job type, start a new focused thread.
 Each starter prompt should remind the assistant to:
 
 - Search HubSpot first
+- Conduct mandatory public intelligence research (`40`) before finalizing CRM recommendations or outreach
+- Explicitly select the initial intent (Qualification, Funding follow-up, Giggle/BankBreezy routing, Business-specific outreach, Partnership, Reactivation)
+- Apply Jason’s voice for applicant outreach (`41`, `43`)
+- Direct Giggle applicants to locate their existing Giggle email and Plaid bank connection (`17`, `42`); never invent custom Moonshine/DAC application links
 - Avoid duplicates
 - Use structured fields only when clean
 - Store messy or contextual details in notes
@@ -57,7 +61,30 @@ Each starter prompt should remind the assistant to:
 
 ---
 
-# 4. Recommended Thread: HubSpot | New Contact Intake + Notes
+# 4. Recommended Thread: HubSpot | Applicant Intelligence & Google CC Review
+
+## Purpose
+Use this thread for research-first applicant intake, entity resolution, state machine placement, and Jason-style outreach generation (`40`, `41`, `42`, `43`).
+
+## Starter Prompt — Applicant Review & Outreach (Google CC Style)
+```text
+I need to review a funding applicant request.
+
+Please perform the following steps per the governing SOPs (40-44):
+1. Search HubSpot first to check for existing contact, company, deal, and note history.
+2. Conduct mandatory public intelligence research on the person and business (web properties, social, operating context).
+3. Distinguish verified facts, strong clues, operating inferences, and personalized writing hooks.
+4. Select the explicit initial intent and provider route (Qualification, Funding follow-up, Giggle/BankBreezy route, Business-specific outreach, Partnership, Reactivation).
+5. For Giggle applicants, direct to existing Giggle email + Plaid connection flow; do not invent a Moonshine link.
+6. Propose exact CRM changes (contact, company, deal, note, task) before execution.
+7. Write an applicant-ready email in Jason’s voice (Marine-direct, metamodern jester, recognition hook, bottleneck, 1 primary CTA, fallback path, clean close).
+8. Return the output in the 6-part Google CC format specified in SOP 43.
+
+Applicant intake details:
+[Paste raw intake text / email / form here]
+```
+
+# 5. Recommended Thread: HubSpot | New Contact Intake + Notes
 
 ## Thread Name
 

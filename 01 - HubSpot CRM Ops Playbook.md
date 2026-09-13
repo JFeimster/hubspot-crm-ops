@@ -245,7 +245,21 @@ If a possible duplicate exists, propose the safest option:
 
 ---
 
-### 2.3 Use Structured Fields Only When They Cleanly Fit
+### 2.3 Mandatory Public Intelligence & Web Research
+
+Before finalizing any applicant contact add or material update, company creation/association decision, provider routing recommendation, or first personalized outreach, complete public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md`.
+
+Never allow a thin form submission to become an excuse for a thin CRM record. Research must distinguish:
+- **Verified facts:** directly supported by intake or official sources (clean structured fields or notes)
+- **Strong clues:** highly likely, but not cleanly confirmed (note context)
+- **Operating inferences:** useful reads of the evidence to shape strategy
+- **Writing hooks:** relevant cultural, industry, or personality references for Jason-style outreach
+
+Do not force unsupported findings into structured schema. Store broader intelligence and evidence in a dedicated research note.
+
+---
+
+### 2.4 Use Structured Fields Only When They Cleanly Fit
 
 Prefer structured HubSpot fields when there is a strong, clean match.
 
@@ -274,7 +288,7 @@ HubSpot fields should be clean. Notes can carry nuance.
 
 ---
 
-### 2.4 Use Notes for Context, Judgment, and Routing Details
+### 2.5 Use Notes for Context, Judgment, and Routing Details
 
 Use notes for information that is important but does not belong cleanly in a structured field.
 
@@ -349,9 +363,23 @@ Names lie. Emails usually snitch. 🕵️
 
 ---
 
-### Step 3: Decide Whether to Create, Update, or Note
+### Step 3: Conduct Mandatory Public Intelligence Research
 
-After searching, decide:
+Per `40 - Applicant Public Intelligence and Web Research SOP.md`, run the research ladder (applicant assets, web properties, search queries, social profiles) to confirm identity, understand the operating entity, and uncover personalized writing hooks.
+
+### Step 4: Select Initial Intent and Route
+
+Do not default to a generic qualification email. Explicitly choose the appropriate initial intent based on research findings:
+- **Qualification:** material underwriting facts are missing.
+- **Funding follow-up:** viable request needs movement/details.
+- **Giggle/BankBreezy routing:** applicant belongs in provider flow (Giggle-owned email/link and Plaid connection).
+- **Business-specific outreach:** public context reveals a clear, direct business funding conversation.
+- **Partnership/strategic opportunity:** entity is better approached as a channel, affiliate, broker, or partner.
+- **Reactivation:** prior record exists; reopen a stalled thread with fresh context.
+
+### Step 5: Decide Whether to Create, Update, or Note
+
+After searching, researching, and selecting intent, decide:
 
 | Situation | Recommended Action |
 |---|---|
@@ -575,9 +603,17 @@ Next action:
 
 ---
 
-## 10. Task Creation Logic
+## 10. Task Creation Logic and State Machine Alignment
 
-Tasks should be practical, specific, and tied to real follow-up.
+Tasks must be driven by the applicant state machine (`42 - Applicant Outreach Sequence and State Machine.md`) rather than generic three-touch follow-up timers.
+
+Every task must specify:
+- Current applicant state (e.g., `New Intake`, `Research Complete`, `Giggle Email Expected`, `Plaid Incomplete`, `Docs Missing`)
+- Clear verb-led title (e.g., `Confirm Giggle Plaid completion — Marcus Bates`)
+- Due date/time aligned with state cadence
+- Specific evidence and next move
+- Associations (Contact + Deal + Company if confirmed)
+- Stop/change condition (e.g., applicant responds, completes Plaid, or opts out)
 
 Every task should include:
 
@@ -666,9 +702,15 @@ When in doubt, associate at least to the contact.
 
 ---
 
-## 12. Giggle / BankBreezy Routing Context
+## 12. Giggle / BankBreezy Routing Mechanics
 
-For Giggle / BankBreezy applicants, preserve routing context clearly.
+For Giggle and BankBreezy applicants, align strictly with provider mechanics (`02`, `17`, `42`, `44`):
+
+- **Giggle Link Ownership:** Giggle owns the applicant-facing email/link for its application and Plaid bank-connection flow. Direct applicants to locate their existing Giggle email. Never invent a separate Moonshine/DAC application link or alternative route for the Giggle path.
+- **Plaid Mechanism:** Plaid is the actual bank-connection/verification mechanism in the Giggle route. Do not confuse it with generic document upload.
+- **BankBreezy Translation:** BankBreezy alerts must be translated into the exact missing applicant action (e.g., connect bank, upload specific named statements).
+- **No Generic Language:** Do not replace known provider steps with generic "send documents" language.
+- **Preserve Context:** Retain real provider-state context in CRM notes, tasks, and outreach.
 
 Important details to log:
 
@@ -735,16 +777,19 @@ Tone example:
 
 ---
 
-### 13.2 Personal Gmail Follow-Ups
+### 13.2 Personal Gmail Follow-Ups and Outreach Style
 
-These may sound more:
+Personal Gmail follow-ups and applicant outreach must strictly reflect `41 - Jason Voice and Applicant Outreach Style Guide.md` and `43 - Google CC-Style Applicant Review and Outreach Prompt.md`:
 
-- Direct
-- Human
-- Warm
-- Strategic
-- Motivational
-- Jason-style, when requested
+- **Voice:** Marine-direct, metamodern jester, anti-establishment venture builder, financially astute, underdog-oriented, clever, and sincere.
+- **Structure:**
+  1. Specific recognition/context hook (grounded in public research)
+  2. Actual bottleneck / reality
+  3. One primary action / CTA
+  4. One fallback path (only when useful)
+  5. Clear, low-friction close
+- **Negative Framing:** Use constructive negative framing to highlight the real cost of delay or incomplete steps without shaming.
+- **No Generic Openers:** Never use "I hope you are well" or generic lender autoresponder copy.
 
 Use for:
 

@@ -17,7 +17,13 @@ The goal is to make every funding applicant’s status obvious without needing t
 
 ---
 
-## 2. Core Rule
+## 2. Core Rule & State Machine Integration
+
+Lifecycle status updates must be driven by `42 - Applicant Outreach Sequence and State Machine.md` and supported by public intelligence research (`40 - Applicant Public Intelligence and Web Research SOP.md`).
+
+Key lifecycle states include: `New Intake`, `Research Complete`, `Initial Outreach Sent`, `Giggle Email Expected`, `Giggle Email Missing`, `Application Started`, `Plaid Incomplete`, `Documents Missing`, `Submitted/Provider Review`, `Provider Requested More`, `Provider Declined`, `Not Now`, `Reactivation`.
+
+## 2.1 Core Rule
 
 Do not confuse:
 

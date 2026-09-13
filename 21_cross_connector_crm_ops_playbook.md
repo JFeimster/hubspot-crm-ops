@@ -52,7 +52,16 @@ Rule:
 
 ---
 
-## 3. Cross-Connector Operating Principles
+## 3. Cross-Connector Operating Principles & Governing Modules (40–44)
+
+Before triggering cross-connector workflows:
+1. Conduct mandatory public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md`.
+2. Explicitly select initial intent and provider route (`40`, `42`).
+3. For Giggle route: direct applicant to existing Giggle email and Plaid bank connection (`17`, `42`); never create custom links.
+4. Apply Jason’s voice for outreach (`41`, `43`).
+5. Align task cadences with state machine (`42`).
+
+## 3.1 Cross-Connector Operating Principles
 
 ### 3.1 Search First in the Right System
 

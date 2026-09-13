@@ -22,9 +22,18 @@ No vague “follow up” nonsense. That is how CRMs become haunted houses with W
 
 ---
 
-## 2. Core Task Rules
+## 2. Core Task Rules and State Machine Integration
+
+Tasks must be driven by the applicant state machine (`42 - Applicant Outreach Sequence and State Machine.md`) and preceded by mandatory public research (`40 - Applicant Public Intelligence and Web Research SOP.md`).
 
 Every HubSpot task should include:
+- Current applicant state
+- Clear verb-led title
+- Specific due date or due timing
+- Research findings and evidence in notes
+- Jason-style outreach angle or provider instruction (`41`, `43`)
+- Correct association to contact, deal, and company (if confirmed)
+- Stop/change condition (when to kill or advance the task)
 
 - Clear task title
 - Specific due date or due timing
@@ -46,7 +55,29 @@ Good task:
 
 ---
 
-## 3. Naming Conventions
+## 3. State-Based Task Templates (File 42 Alignment)
+
+Tasks map directly to states in `42 - Applicant Outreach Sequence and State Machine.md`:
+
+| State | Task Template | Due Timing | Stop/Exit Condition |
+| --- | --- | --- | --- |
+| New Intake | `Research identity & business — [Name]` | Same day | Public research complete (`40`) |
+| Research Complete | `Select initial intent & route — [Name]` | Same day | Contact plan approved |
+| Initial Outreach Sent | `Check response to initial outreach — [Name]` | Next day | Reply or action complete |
+| Early No Response | `Send 2nd touch alternate angle — [Name]` | 48–72 hours | Reply, opt-out, escalation |
+| Final Active No Response | `Send close-the-loop email — [Name]` | 5–7 days | Reactivation or closed-lost |
+| Giggle Email Expected | `Confirm Giggle email located — [Name]` | Next day | Applicant confirms email |
+| Giggle Email Missing | `Trigger Giggle email resend — [Name]` | Same day | Email located or resend triggered |
+| Application Started | `Identify remaining application step — [Name]` | Within 24 hours | Plaid/docs step reached |
+| Plaid Incomplete | `Confirm Giggle Plaid completion — [Name]` | Next day / 48 hours | Plaid bank linked |
+| Documents Missing | `Collect requested statements — [Name]` | Next day / 48 hours | Documents uploaded |
+| Provider Review | `Monitor provider SLA — [Name]` | 2 business days | Provider outcome received |
+| Provider Requested More | `Request specific item from applicant — [Name]` | Same day + next day | Requested item provided |
+| Provider Declined | `Evaluate alternative route — [Name]` | Same day | Alternate lane or close |
+| Not Now | `Reactivate on scheduled date — [Name]` | Agreed date / 30-90 days | Scheduled date reached |
+| Reactivation | `Send fresh research-backed message — [Name]` | Day 0 + 3-5 days | Reply or archive |
+
+## 5. Naming Conventions
 
 Use consistent task naming so the CRM remains searchable and scannable.
 

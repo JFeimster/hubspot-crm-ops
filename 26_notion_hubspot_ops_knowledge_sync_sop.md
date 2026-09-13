@@ -32,7 +32,11 @@ Do not make either one pretend to be both.
 
 ---
 
-## 2. Source-of-Truth Rule
+## 2. Source-of-Truth Rule & Knowledge Sync Hierarchy
+
+Notion knowledge sync must align with governing SOPs `40 - Applicant Public Intelligence and Web Research SOP.md` through `44 - Gold-Standard Applicant Outreach Examples.md`.
+
+## 2.1 Source-of-Truth Rule
 
 | Data Type | Source of Truth |
 |---|---|

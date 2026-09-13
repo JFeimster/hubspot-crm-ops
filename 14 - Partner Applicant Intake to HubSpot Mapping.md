@@ -27,7 +27,12 @@ A person applying to become a partner is not automatically a funding applicant. 
 
 ---
 
-## 2. Core Rule
+## 2. Core Rule & Research Mandate
+
+Before creating partner records or company associations:
+1. Conduct mandatory public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md` to verify the entity, web presence, and professional context.
+2. Distinguish verified facts from clues and operating inferences.
+3. Use Jason’s voice (`41`) for personalized partner outreach drafts.
 
 Always search HubSpot first before creating or updating partner records.
 

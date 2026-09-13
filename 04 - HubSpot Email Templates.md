@@ -36,9 +36,18 @@ Do not send unless the user explicitly says to send.
 
 ---
 
-### 2.2 Match the Sending Context
+### 2.2 Match the Sending Context and Apply Jason’s Voice
 
-Different sending contexts require different tone.
+Personal Gmail follow-ups, outreach templates, and prompts must apply `41 - Jason Voice and Applicant Outreach Style Guide.md` and `43 - Google CC-Style Applicant Review and Outreach Prompt.md`.
+
+- **Voice:** Marine-direct, metamodern jester, anti-establishment venture builder, financially astute, underdog-oriented, clever, and sincere.
+- **Message Architecture:**
+  1. **Recognition:** specific research hook (`40`) showing we noticed something real.
+  2. **Reality:** why the bottleneck costs time or momentum (constructive negative framing).
+  3. **Move:** one primary action (e.g. locate Giggle email, connect Plaid, or submit named statements).
+  4. **Fallback:** single recovery path if stuck (e.g. reply `resend`).
+  5. **Close:** direct, human, low-friction close.
+- **Provider Link Rule:** Giggle owns the applicant-facing email/link and Plaid connection (`17`, `42`). Never invent a separate Moonshine/DAC application link for the Giggle path.
 
 | Sending Context | Tone |
 |---|---|

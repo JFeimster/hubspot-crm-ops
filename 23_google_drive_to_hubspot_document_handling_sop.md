@@ -30,7 +30,11 @@ Do not turn HubSpot into a file cabinet with anxiety.
 
 ---
 
-## 2. Source-of-Truth Rule
+## 2. Source-of-Truth Rule & State Machine Alignment
+
+Drive documents and screenshots must update CRM notes (`40`) and trigger state transitions in `42 - Applicant Outreach Sequence and State Machine.md` (e.g. from `Documents Missing` to `Submitted/Provider Review`).
+
+## 2.1 Source-of-Truth Rule
 
 | System | Owns |
 |---|---|

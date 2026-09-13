@@ -52,7 +52,11 @@ Important:
 
 ---
 
-## 3. Core Owner Assignment Rule
+## 3. Core Owner Assignment Rule & State Machine Integration
+
+Ownership handoffs must align with applicant state transitions in `42 - Applicant Outreach Sequence and State Machine.md` and public intelligence findings (`40 - Applicant Public Intelligence and Web Research SOP.md`).
+
+## 3.1 Core Owner Assignment Rule
 
 Before assigning or changing owner:
 

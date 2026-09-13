@@ -26,7 +26,16 @@ The purpose is to reduce guesswork, preserve CRM hygiene, and make proposed chan
 
 ---
 
-## 2. Critical Rule: Search Before Payload
+## 2. Critical Rule: Search and Research Before Payload
+
+Before preparing any create/update payload or action plan:
+
+1. Search existing contacts by email, phone, and name.
+2. Search companies by business name/domain.
+3. Conduct public intelligence research per `40 - Applicant Public Intelligence and Web Research SOP.md`.
+4. Distinguish verified facts (fields/notes), clues, inferences, and writing hooks (`41`).
+5. Map structured fields only for clean matches; put broader public research context into structured Note payloads.
+6. For Giggle applicants, payloads must direct to the existing Giggle email and Plaid connection flow (`17`, `42`).
 
 Before preparing any create/update payload or action plan:
 

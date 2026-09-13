@@ -25,7 +25,11 @@ HubSpot owns CRM status. Google Contacts helps identify the human.
 
 ---
 
-## 2. Source-of-Truth Rule
+## 2. Source-of-Truth Rule & Research-First Resolution
+
+Identity resolution between Google Contacts and HubSpot must include mandatory public web research per `40 - Applicant Public Intelligence and Web Research SOP.md` to confirm identity, business entities, and active domains.
+
+## 2.1 Source-of-Truth Rule
 
 | System | Role |
 |---|---|

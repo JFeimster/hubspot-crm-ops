@@ -23,7 +23,11 @@ The goal is to transform Wix form submissions into clean HubSpot records, notes,
 
 ---
 
-## 2. Workflow Summary
+## 2. Workflow Summary & Research Integration
+
+Wix form automation must route incoming form data through public research enrichment (`40`), explicit intent selection (`40`, `42`), and state machine task assignment (`42`).
+
+## 2.1 Workflow Summary
 
 ```text
 Wix Form Webhook

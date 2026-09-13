@@ -29,7 +29,16 @@ Automation should make the CRM cleaner, not faster at being wrong.
 
 ---
 
-## 2. Wix Role vs HubSpot Role
+## 2. Wix Role vs HubSpot Role & Research-First Automation
+
+Wix intake automation must enforce:
+1. Search HubSpot first to prevent duplicates.
+2. Mandatory public intelligence research (`40`) before finalizing CRM record plans or outreach drafts.
+3. Explicit initial intent selection (`40`, `42`).
+4. Giggle route direction: existing Giggle email + Plaid bank connection (`17`, `42`).
+5. Jason’s voice for outreach (`41`, `43`).
+
+## 2.1 Wix Role vs HubSpot Role
 
 | System | Role |
 |---|---|

@@ -28,7 +28,11 @@ HubSpot tells you why it matters and what happens next.
 
 ---
 
-## 2. Calendar vs HubSpot Task Rule
+## 2. Calendar vs HubSpot Task Rule & State Machine Integration
+
+Scheduled calls and post-call tasks must reflect applicant states in `42 - Applicant Outreach Sequence and State Machine.md` and Jason’s voice (`41`).
+
+## 2.1 Calendar vs HubSpot Task Rule
 
 | Need | Use |
 |---|---|

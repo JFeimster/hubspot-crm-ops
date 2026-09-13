@@ -25,7 +25,14 @@ An AI agent should not be a giant blob of “figure it out.” That is not intel
 
 ---
 
-## 2. Skill Design Standard
+## 2. Skill Design Standard & Core Governing Skills
+
+Required core skills include:
+1. **Public Intelligence Researcher (`40`):** runs research ladder, outputs verified facts, clues, inferences, writing hooks, and research notes.
+2. **State Machine Evaluator (`42`):** maps applicant evidence to state, defines next action, cadence, and task specs.
+3. **Jason Outreach Generator (`41`, `43`):** crafts personalized outreach in Jason’s voice with recognition hook, bottleneck, primary CTA, fallback path, and close.
+
+## 2.1 Skill Design Standard
 
 Each AI skill should define:
 

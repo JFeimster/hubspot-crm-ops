@@ -369,15 +369,31 @@ Do not round aggressively or inflate revenue.
 
 ---
 
-## 13. Follow-Up Recommendations
+## 13. Status-Based Follow-Up Recommendations
 
-Use a practical follow-up sequence for Giggle / BankBreezy applicants.
+Follow-up must align strictly with the state machine in `42 - Applicant Outreach Sequence and State Machine.md`. Avoid generic three-touch follow-up sequences.
+
+### 13.1 State: Giggle Email Expected / Missing
+- **Action:** Tell applicant to locate the existing Giggle email; if missing, confirm email and trigger fastest resend/escalation path.
+- **Jason Voice Hook:** "If the Giggle email vanished into the great inbox landfill, reply `resend` and I will point you to the fastest recovery path."
+
+### 13.2 State: Plaid / Bank Link Incomplete
+- **Action:** Direct applicant to return to the Giggle email and connect the primary operating account through Plaid.
+- **Task Title:** `Confirm Giggle Plaid completion — [Applicant]`
+- **Timing:** Next business day; then 48 hours.
+
+### 13.3 State: Documents Missing
+- **Action:** Name the exact document required by the provider alert (e.g. 3 months bank statements) and upload/reply path.
+- **Task Title:** `Collect requested documents — [Applicant]`
+
+### 13.4 State: Provider Review / Provider Requested More
+- **Action:** Set clear expectations; convert provider requests into one clear applicant CTA without useless noise.
 
 ### 13.1 Next-Day Giggle Follow-Up
 
 Use when:
 
-- Applicant was sent Giggle / BankBreezy link
+- Applicant was sent Giggle email / BankBreezy action link
 - Applicant was routed toward same-day funding
 - Applicant needs to complete application or quote process
 
