@@ -372,7 +372,7 @@ Per `40 - Applicant Public Intelligence and Web Research SOP.md`, run the resear
 Do not default to a generic qualification email. Explicitly choose the appropriate initial intent based on research findings:
 - **Qualification:** material underwriting facts are missing.
 - **Funding follow-up:** viable request needs movement/details.
-- **Giggle/BankBreezy routing:** applicant belongs in provider flow (Giggle-owned email/link and Plaid connection).
+- **Provider routing:** choose the verified provider path. For a Giggle route, the applicant uses Giggle’s existing email/link and Plaid flow. For BankBreezy or another provider, preserve its actual, verified action path.
 - **Business-specific outreach:** public context reveals a clear, direct business funding conversation.
 - **Partnership/strategic opportunity:** entity is better approached as a channel, affiliate, broker, or partner.
 - **Reactivation:** prior record exists; reopen a stalled thread with fresh context.
@@ -704,11 +704,11 @@ When in doubt, associate at least to the contact.
 
 ## 12. Giggle / BankBreezy Routing Mechanics
 
-For Giggle and BankBreezy applicants, align strictly with provider mechanics (`02`, `17`, `42`, `44`):
+For each applicant, retain the exact provider route. Do not blend Giggle and BankBreezy mechanics merely because both are funding paths (`02`, `17`, `42`, `44`):
 
 - **Giggle Link Ownership:** Giggle owns the applicant-facing email/link for its application and Plaid bank-connection flow. Direct applicants to locate their existing Giggle email. Never invent a separate Moonshine/DAC application link or alternative route for the Giggle path.
-- **Plaid Mechanism:** Plaid is the actual bank-connection/verification mechanism in the Giggle route. Do not confuse it with generic document upload.
-- **BankBreezy Translation:** BankBreezy alerts must be translated into the exact missing applicant action (e.g., connect bank, upload specific named statements).
+- **Plaid Mechanism:** In the Giggle route, Plaid is the mechanism for connecting and verifying the primary operating account and supplying the account data needed for review. If a provider also requests named statements or documents, state that exact request and use its verified submission path; do not substitute a generic instruction.
+- **BankBreezy Translation:** BankBreezy alerts must be translated into the exact missing applicant action and verified route instruction (for example, its dashboard action, a requested connection, or named statements).
 - **No Generic Language:** Do not replace known provider steps with generic "send documents" language.
 - **Preserve Context:** Retain real provider-state context in CRM notes, tasks, and outreach.
 
