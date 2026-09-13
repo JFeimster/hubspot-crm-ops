@@ -389,17 +389,19 @@ Follow-up must align strictly with the state machine in `42 - Applicant Outreach
 ### 13.4 State: Provider Review / Provider Requested More
 - **Action:** Set clear expectations; convert provider requests into one clear applicant CTA without useless noise.
 
-### 13.1 Next-Day Giggle Follow-Up
+### 13.5 Next-Business-Day Route Follow-Up
 
 Use when:
 
-- Applicant was sent Giggle email / BankBreezy action link
-- Applicant was routed toward same-day funding
-- Applicant needs to complete application or quote process
+- Giggle route is active and the applicant needs to locate the provider email or complete Plaid
+- BankBreezy route is active and the applicant needs to complete the verified dashboard/action path
+- Applicant needs to complete the actual provider step
 
-Recommended task:
+Recommended route-specific task:
 
-> Follow up — confirm Giggle / BankBreezy application started
+> Giggle: Follow up — confirm Giggle email/Plaid step completed
+>
+> BankBreezy: Follow up — confirm BankBreezy dashboard action started
 
 Due:
 
@@ -411,7 +413,7 @@ Association:
 
 ---
 
-### 13.2 48-Hour No-Response Follow-Up
+### 13.6 48-Hour No-Response Follow-Up
 
 Use when:
 
@@ -421,7 +423,7 @@ Use when:
 
 Recommended task:
 
-> 48-hour follow-up — no response after funding link
+> 48-hour follow-up — no response after verified provider action
 
 Due:
 
@@ -433,17 +435,16 @@ Association:
 
 ---
 
-### 13.3 Check If Bank Linked
+### 13.7 Check If Bank Linked
 
 Use when:
 
-- Applicant started application
-- Applicant may be stuck at bank connection step
-- Funding provider requires bank link before review
+- Giggle application is active and Plaid/bank connection is incomplete
+- A provider has explicitly identified a bank connection as the missing step
 
 Recommended task:
 
-> Check status — confirm bank account linked
+> Check status — confirm verified bank/Plaid connection step
 
 Due:
 
@@ -455,7 +456,7 @@ Association:
 
 ---
 
-### 13.4 Business Funding Parallel Lane Follow-Up
+### 13.8 Business Funding Parallel Lane Follow-Up
 
 Use when:
 
